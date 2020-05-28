@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-97008818-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-97008818-4');
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -11,7 +26,11 @@
       crossorigin="anonymous"
     />
 
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+
     <title>View My Work</title>
   </head>
 
@@ -29,7 +48,7 @@
         </div>
         <ul class="menu-nav">
           <li class="nav-item">
-            <a href="index.html" class="nav-link">
+            <a href="/" class="nav-link">
               Home
             </a>
           </li>
@@ -45,7 +64,7 @@
           </li>
           <li class="nav-item">
             <a href="contact.html" class="nav-link">
-              How To Reach Me
+              Contact Me
             </a>
           </li>
         </ul>
@@ -60,79 +79,253 @@
       <h2 class="sm-heading">
         Check out some of my projects...
       </h2>
-      <div class="projects">
+      <section class="projects">
         <div class="item">
-          <a href="#!">
-            <img src="img/projects/KingMsoft.png" alt="KingMsoft logo" />
-          </a>
           <a
-            href="img/projects/KingMsoft.png"
-            target="_blank"
-            class="btn-light"
+            href="images/projects/portfolio_Edurite-logo.jpg"
+            data-lightbox="myPortfolio"
+            data-title="logo"
           >
-            <i class="fas fa-eye"></i> KingMsoft Logo
-          </a>
-          <a href="#" class="btn-dark">
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="#!">
-            <img src="img/projects/Blackjack.png" alt="Blackjack game" />
-          </a>
-          <a
-            href="img/projects/Blackjack.png"
-            target="_blank"
-            class="btn-light"
-          >
-            <i class="fas fa-eye"></i> Game : Blackjack
-          </a>
-          <a
-            href="https://github.com/jchademwiri/blackjack.git"
-            target="_blank"
-            class="btn-dark"
-          >
-            <i class="fab fa-github"></i> Github
-          </a>
-        </div>
-        <div class="item">
-          <a href="http://playhousegraphix.co.za/" target="_blank">
             <img
-              src="img/projects/PlayhouseGraphix.png"
+              src="images/projects/portfolio_Edurite-logo.jpg"
+              alt="Edurite logo"
+            />
+          </a>
+          <a href="#!" class="btn-light"> <i class="fas fa-eye"></i> Logo </a>
+          <!-- <a href="#!" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a> -->
+        </div>
+        <div class="item">
+          <a
+            href="images/projects/portfolio_Playhouse-logo.jpg"
+            data-lightbox="myPortfolio"
+            data-title="logo"
+          >
+            <img
+              src="images/projects/portfolio_Playhouse-logo.jpg"
+              alt="playhousegraphix"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/playhousegraphix"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Logo</a
+          >
+          <!-- <a href="#" target="_blank" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a> -->
+        </div>
+        <div class="item">
+          <a
+            href="images/projects/portfolio-03.jpg"
+            data-lightbox="myPortfolio"
+            data-title="Business Card"
+          >
+            <img
+              src="images/projects/portfolio-03.jpg"
               alt="PlayhouseGraphix"
             />
           </a>
           <a
-            href="https://github.com/jchademwiri/playhousegraphix.git"
+            href="images/projects/portfolio-03.jpg"
             target="_blank"
             class="btn-light"
           >
-            <i class="fas fa-eye"></i> Playhouse Graphix Website
+            <i class="fas fa-eye"></i> Business Card
+          </a>
+          <!-- <a href="#" target="_blank" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a> -->
+        </div>
+
+        <div class="item">
+          <a
+            href="images/projects/portfolio-04.jpg"
+            data-lightbox="myPortfolio"
+            data-title="Business Card"
+          >
+            <img src="images/projects/portfolio-04.jpg" alt="nomiabags" />
           </a>
           <a
-            href="https://github.com/jchademwiri/playhousegraphix.git"
+            href="https://www.facebook.com/nomiabags/"
             target="_blank"
-            class="btn-dark"
+            class="btn-light"
           >
+            <i class="fas fa-eye"></i> Business Card</a
+          >
+          <!-- <a href="#" class="btn-dark">
             <i class="fab fa-github"></i> Github
-          </a>
+          </a> -->
         </div>
         <div class="item">
-          <a href="#!">
-            <img src="img/projects/project4.jpg" alt="Project" />
+          <a
+            href="images/projects/portfolio-05.jpg"
+            data-lightbox="myPortfolio"
+            data-title="Invitation Card"
+          >
+            <img src="images/projects/portfolio-05.jpg" alt=" Flyer" />
           </a>
-          <a href="#" class="btn-light"> <i class="fas fa-eye"></i> Project </a>
-          <a href="#" class="btn-dark">
+          <a
+            href="images/projects/portfolio-05.jpg"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Invitation Card
+          </a>
+          <!-- <a href="" target="_blank" class="btn-dark">
             <i class="fab fa-github"></i> Github
-          </a>
+          </a> -->
         </div>
-      </div>
+        <div class="item">
+          <a
+            href="images/projects/portfolio-06.jpg"
+            data-lightbox="myPortfolio"
+            data-title="Flyer"
+          >
+            <img
+              src="images/projects/portfolio-06.jpg"
+              alt="PlayhouseGraphix"
+            />
+          </a>
+          <a
+            href="images/projects/portfolio-06.jpg"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Flyer
+          </a>
+          <!-- <a href="" target="_blank" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a> -->
+        </div>
+        <div class="item">
+          <a
+            href="images/projects/portfolio-09.jpg"
+            data-lightbox="myPortfolio"
+            data-title="Flyer / Poster"
+          >
+            <img src="images/projects/portfolio-09.jpg" alt="littleStars" />
+          </a>
+          <a
+            href="https://www.facebook.com/kidsemporium/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Flyer / Poster
+          </a>
+          <!-- <a href="" target="_blank" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a> -->
+        </div>
+        <div class="item">
+          <a
+            href="images/projects/portfolio-10.jpg"
+            data-lightbox="myPortfolio"
+            data-title="Flyer / Poster"
+          >
+            <img src="images/projects/portfolio-10.jpg" alt="littleStars" />
+          </a>
+          <a
+            href="https://www.facebook.com/kidsemporium/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Flyer / Poster
+          </a>
+          <!-- <a href="" target="_blank" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a> -->
+        </div>
+
+        <div class="item">
+          <a
+            href="images/projects/portfolio-11.jpg"
+            data-lightbox="myPortfolio"
+            data-title="App UI Design"
+          >
+            <img src="images/projects/portfolio-11.jpg" alt="littleStars" />
+          </a>
+          <a
+            href="https://youtu.be/N3c9rBMoT3M"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> App UI Design
+          </a>
+          <!-- <a href="" target="_blank" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a> -->
+        </div>
+
+        <div class="item">
+          <a
+            href="images/projects/portfolio-12.jpg"
+            data-lightbox="myPortfolio"
+            data-title="App UI Design"
+          >
+            <img src="images/projects/portfolio-12.jpg" alt="littleStars" />
+          </a>
+          <a
+            href="https://youtu.be/N3c9rBMoT3M"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> App UI Design
+          </a>
+          <!-- <a href="" target="_blank" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a> -->
+        </div>
+
+        <div class="item">
+          <a
+            href="images/projects/portfolio-13.jpg"
+            data-lightbox="myPortfolio"
+            data-title="UI/UX Design"
+          >
+            <img src="images/projects/portfolio-13.jpg" alt="littleStars" />
+          </a>
+          <a
+            href="images/projects/portfolio-13.jpg"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> UI/UX Design
+          </a>
+          <!-- <a href="" target="_blank" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a> -->
+        </div>
+
+        <div class="item">
+          <a
+            href="images/projects/portfolio-08.jpg"
+            data-lightbox="myPortfolio"
+            data-title="UI/UX Design"
+          >
+            <img src="images/projects/portfolio-08.jpg" alt="littleStars" />
+          </a>
+          <a
+            href="images/projects/portfolio-08.jpg"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i>UI/UX Design
+          </a>
+          <!-- <a href="" target="_blank" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a> -->
+        </div>
+      </section>
     </main>
 
     <footer id="main-footer">
-      Copyright &copy; 2019
+      Copyright &copy; 2020
     </footer>
-
     <script src="js/main.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
   </body>
 </html>
