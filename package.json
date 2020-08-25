@@ -1,24 +1,24 @@
 {
-  "name": "jacobportfolio",
-  "version": "1.0.0",
-  "description": "My responsive portfolio website resume",
-  "main": "index.js",
-  "homepage": "https://jchademwiri.github.io/jacobportfolio",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive",
-    "deploy": "gh-pages -d dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jchademwiri/jacobportfolio.git"
-  },
-  "author": "Jacob Chademwiri",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jchademwiri/jacobportfolio/issues"
-  },
-  "dependencies": {
-    "gh-pages": "^2.0.1",
-    "node-sass": "^4.12.0"
-  }
+	"name": "jacobportfolio",
+	"version": "1.0.0",
+	"description": "My responsive portfolio website resume",
+	"main": "index.js",
+	"homepage": "https://jchademwiri.github.io/jacobportfolio",
+	"scripts": {
+		"sass": "node-sass -w scss/ -o dist/css --recursive",
+		"deploy": "gh-pages -d dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jchademwiri/jacobportfolio.git"
+	},
+	"author": "Jacob Chademwiri",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jchademwiri/jacobportfolio/issues"
+	},
+	"dependencies": {
+		"gh-pages": "^2.0.1",
+		"node-sass": "^4.12.0"
+	}
 }
