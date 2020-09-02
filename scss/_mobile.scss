@@ -22,6 +22,10 @@
 			line-height: 1;
 			margin-bottom: 1rem;
 		}
+		.other {
+			display: flex;
+			flex-direction: column;
+		}
 	}
 
 	ul.menu-nav,
@@ -87,6 +91,11 @@
 		.lg-heading {
 			margin-top: 1rem;
 			font-size: 5rem;
+		}
+
+		.other {
+			display: flex;
+			flex-direction: column;
 		}
 	}
 
