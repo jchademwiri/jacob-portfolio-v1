@@ -6,7 +6,10 @@
   cursor: pointer;
   transition: all 0.5s ease-out;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .menu-btn .btn-line {
   width: 28px;
   height: 3px;
@@ -14,6 +17,7 @@
   background: #fff;
   transition: all 0.5s ease-out;
 }
+<<<<<<< HEAD
 
 .menu-btn.close {
   transform: rotate(180deg);
@@ -27,6 +31,17 @@
   opacity: 0;
 }
 
+=======
+.menu-btn.close {
+  transform: rotate(180deg);
+}
+.menu-btn.close .btn-line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.menu-btn.close .btn-line:nth-child(2) {
+  opacity: 0;
+}
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .menu-btn.close .btn-line:nth-child(3) {
   transform: rotate(-45deg) translate(7px, -6px);
 }
@@ -38,12 +53,20 @@
   opacity: 0.9;
   visibility: hidden;
 }
+<<<<<<< HEAD
 
 .menu.show {
   visibility: visible;
 }
 
 .menu-branding, .menu-nav {
+=======
+.menu.show {
+  visibility: visible;
+}
+.menu-branding,
+.menu-nav {
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -53,7 +76,10 @@
   height: 100vh;
   overflow: hidden;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .menu-nav {
   margin: 0;
   padding: 0;
@@ -62,16 +88,23 @@
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
 }
+<<<<<<< HEAD
 
 .menu-nav.show {
   transform: translate3d(0, 0, 0);
 }
 
+=======
+.menu-nav.show {
+  transform: translate3d(0, 0, 0);
+}
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .menu-branding {
   background: #2f343b;
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out;
 }
+<<<<<<< HEAD
 
 .menu-branding.show {
   transform: translate3d(0, 0, 0);
@@ -85,10 +118,23 @@
   border: solid 3px #009432;
 }
 
+=======
+.menu-branding.show {
+  transform: translate3d(0, 0, 0);
+}
+.menu-branding .portrait {
+  width: 250px;
+  height: 250px;
+  background: url('../images/portrait.jpg');
+  border-radius: 50%;
+  border: solid 3px #009432;
+}
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .menu .nav-item {
   transform: translate3d(600px, 0, 0);
   transition: all 0.5s ease-out;
 }
+<<<<<<< HEAD
 
 .menu .nav-item.show {
   transform: translate3d(0, 0, 0);
@@ -98,6 +144,14 @@
   color: #009432;
 }
 
+=======
+.menu .nav-item.show {
+  transform: translate3d(0, 0, 0);
+}
+.menu .nav-item.current > a {
+  color: #009432;
+}
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .menu .nav-link {
   display: inline-block;
   position: relative;
@@ -109,7 +163,10 @@
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .menu .nav-link:hover {
   color: #009432;
 }
@@ -140,6 +197,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
   line-height: 1.2;
 }
 
@@ -151,6 +209,17 @@ body#bg-img {
 
 body#bg-img:after {
   content: "";
+=======
+  line-height: 1.5;
+}
+body#bg-imag {
+  background: url(../images/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+body#bg-img:after {
+  content: '';
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
   position: absolute;
   top: 0;
   right: 0;
@@ -166,13 +235,19 @@ h3 {
   margin: 0;
   font-weight: 400;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
   font-size: 6rem;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
@@ -200,6 +275,7 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
 }
+<<<<<<< HEAD
 
 main .other {
   display: flex;
@@ -240,26 +316,55 @@ main#home {
 
 main#home h1 {
   margin-top: 15vh;
+=======
+main .icons {
+  margin-top: 1rem;
+}
+main .icons a {
+  padding: 0.4rem;
+  transition: all 0.5s ease-out;
+}
+main .icons a:hover {
+  color: #009432;
+}
+main#home {
+  overflow: hidden;
+}
+main#home h1 {
+  margin-top: 20vh;
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 }
 
 .about-info {
   display: grid;
   grid-gap: 30px;
+<<<<<<< HEAD
   grid-template-areas: 'bioimage bio bio' 'skill1 skill2 skill3';
   grid-template-columns: repeat(3, 1fr);
 }
 
+=======
+  grid-template-areas:
+    'bioimage bio bio'
+    'skill1 skill2 skill3';
+  grid-template-columns: repeat(3, 1fr);
+}
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .about-info .bio-image {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
   border: #009432 3px solid;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .about-info .bio {
   grid-area: bio;
   font-size: 1.5rem;
 }
+<<<<<<< HEAD
 
 .about-info .skill-1 {
   grid-area: skill1;
@@ -273,6 +378,17 @@ main#home h1 {
   grid-area: skill3;
 }
 
+=======
+.about-info .skill-1 {
+  grid-area: skill1;
+}
+.about-info .skill-2 {
+  grid-area: skill2;
+}
+.about-info .skill-3 {
+  grid-area: skill3;
+}
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .about-info .skill {
   background: #3a4149;
   padding: 0.5rem;
@@ -284,17 +400,24 @@ main#home h1 {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .projects img {
   width: 100%;
   border: 3px #fff solid;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .projects img:hover {
   opacity: 0.5;
   border-color: #009432;
   transition: all 0.5s ease-out;
 }
+<<<<<<< HEAD
 
 .project-info {
   display: grid;
@@ -314,6 +437,8 @@ main#home h1 {
   grid-area: projectdetails;
   font-size: 1.5rem;
 }
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 
 .boxes {
   display: flex;
@@ -322,7 +447,10 @@ main#home h1 {
   align-items: center;
   margin-top: 1rem;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .boxes div {
   font-size: 2rem;
   border: 3px #fff solid;
@@ -330,25 +458,39 @@ main#home h1 {
   margin-bottom: 3rem;
   transition: all 0.5s ease-out;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .boxes div:hover {
   padding: 0.5rem 1.5rem;
   background: #009432;
   color: #fff;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 .boxes div:hover span {
   color: #fff;
 }
 
-.btn, .btn-dark, .btn-light {
+.btn,
+.btn-dark,
+.btn-light {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
 }
+<<<<<<< HEAD
 
 .btn:hover, .btn-dark:hover, .btn-light:hover {
+=======
+.btn:hover,
+.btn-dark:hover,
+.btn-light:hover {
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
   background: #009432;
   color: #fff;
 }
@@ -392,10 +534,13 @@ main#home h1 {
     line-height: 1;
     margin-bottom: 1rem;
   }
+<<<<<<< HEAD
   main .other {
     display: flex;
     flex-direction: column;
   }
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -416,21 +561,37 @@ main#home h1 {
     transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
+<<<<<<< HEAD
     background: url("../img/portrait_small.jpg");
+=======
+    background: url('../imag/portrait_small.jpg');
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
     width: 150px;
     height: 150px;
   }
   .about-info {
+<<<<<<< HEAD
     grid-template-areas: 'bioimage' 'bio' 'skill1' 'skill2' 'skill3';
+=======
+    grid-template-areas:
+      'bioimage'
+      'bio'
+      'skill1'
+      'skill2'
+      'skill3';
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
     grid-template-columns: 1fr;
   }
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+<<<<<<< HEAD
   .project-info {
     grid-template-areas: 'projectimage' 'projectdetails';
     grid-template-columns: 1fr;
   }
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 }
 
 @media screen and (max-width: 500px) {
@@ -442,14 +603,24 @@ main#home h1 {
   }
   main .lg-heading {
     margin-top: 1rem;
+<<<<<<< HEAD
     font-size: 5rem;
   }
   main .other {
     display: flex;
     flex-direction: column;
+=======
+    font-size: 3.5rem;
+  }
+  main .boxes .xs-heading {
+    font-size: 1.5rem;
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
   }
   .projects {
     grid-template-columns: 1fr;
   }
 }
+<<<<<<< HEAD
 /*# sourceMappingURL=main.css.map */
+=======
+>>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
