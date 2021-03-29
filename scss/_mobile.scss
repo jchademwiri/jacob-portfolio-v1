@@ -14,72 +14,6 @@
 
 // Tablets & Small Laptops
 @include mediaMd {
-<<<<<<< HEAD
-	main {
-		align-items: center;
-		text-align: center;
-
-		.lg-heading {
-			line-height: 1;
-			margin-bottom: 1rem;
-		}
-		.other {
-			display: flex;
-			flex-direction: column;
-		}
-	}
-
-	ul.menu-nav,
-	div.menu-branding {
-		float: none;
-		width: 100%;
-		min-height: 0;
-
-		&.show {
-			transform: translate3d(0, 0, 0);
-		}
-	}
-
-	.menu-nav {
-		height: 75vh;
-		transform: translate3d(-100%, 0, 0);
-		font-size: 24px;
-	}
-
-	.menu-branding {
-		height: 25vh;
-		transform: translate3d(100%, 0, 0);
-
-		.portrait {
-			background: url('../img/portrait_small.jpg');
-			width: 150px;
-			height: 150px;
-		}
-	}
-
-	.about-info {
-		grid-template-areas:
-			'bioimage'
-			'bio'
-			'skill1'
-			'skill2'
-			'skill3';
-
-		grid-template-columns: 1fr;
-	}
-
-	.projects {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.project-info {
-		grid-template-areas:
-			'projectimage'
-			'projectdetails';
-
-		grid-template-columns: 1fr;
-	}
-=======
   main {
     align-items: center;
     text-align: center;
@@ -132,33 +66,10 @@
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
->>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 }
 
 // Smartphones
 @include mediaSm {
-<<<<<<< HEAD
-	main {
-		padding: 2rem;
-		#home h1 {
-			margin-top: 10vh;
-		}
-
-		.lg-heading {
-			margin-top: 1rem;
-			font-size: 5rem;
-		}
-
-		.other {
-			display: flex;
-			flex-direction: column;
-		}
-	}
-
-	.projects {
-		grid-template-columns: 1fr;
-	}
-=======
   main {
     padding: 2rem;
     #home h1 {
@@ -174,5 +85,4 @@
   .projects {
     grid-template-columns: 1fr;
   }
->>>>>>> 72fb09ff14381a4aa1040dded5d70e744fa458f5
 }
